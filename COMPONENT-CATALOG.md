@@ -1,6 +1,7 @@
 # COMPONENT CATALOG — 222 UI + 3 Hooks = 225 files
 ## Verified: 10 March 2026 | All files exist in src/components/ui/
 ## Sources: Aceternity UI, Magic UI, Motion Primitives, shadcn/ui (radix-nova)
+## Note: 3 components listed in 2 categories (†): infinite-moving-cards, macbook-scroll, animated-modal
 
 ---
 
@@ -45,8 +46,8 @@ bento-grid, layout-grid, layout-text-flip, svg-mask-effect, canvas-reveal-effect
 ### Maps & 3D (4)
 3d-globe, globe, world-map, 3d-pin
 
-### Dialogs & Overlays (10)
-dialog, alert-dialog, animated-modal, morphing-dialog, morphing-popover, sheet, drawer, disclosure, popover, collapsible
+### Dialogs & Overlays (11)
+accordion, dialog, alert-dialog, animated-modal, morphing-dialog, morphing-popover, sheet, drawer, disclosure, popover, collapsible
 
 ### Form Elements (19)
 input, input-group, input-otp, textarea, select, native-select, checkbox, radio-group, switch, slider, label, field, toggle, toggle-group, file-upload, placeholders-and-vanish-input, combobox, command, calendar
@@ -57,7 +58,7 @@ table, badge, avatar, skeleton, progress, tooltip, separator, chart, images-badg
 ### Feedback & Notifications (4)
 sonner, spinner, loader, multi-step-loader
 
-### Other Utilities (13)
+### Other Utilities (15)
 terminal, code-block, link-preview, carousel, ascii-art, canvas-text, pagination, resizable, dropdown-menu, context-menu, alert, empty, item, toolbar-dynamic, toolbar-expandable
 
 ---

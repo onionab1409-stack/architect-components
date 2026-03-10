@@ -2,7 +2,7 @@
 
 ## What
 Premium website generator using 222 UI components + 3 hooks from Aceternity UI, Magic UI, Motion Primitives, shadcn/ui.
-Stack: Next.js 16, React 19, TypeScript, Tailwind CSS v4.1, Motion 12.35, Three.js, GSAP, Lenis.
+Stack: Next.js 16.1.6, React 19.2.3, TypeScript, Tailwind CSS v4.2.1, Motion 12.35.2, Three.js 0.183, GSAP 3.14, Lenis 1.3.
 
 ## Component Catalog
 - UI components (222): `src/components/ui/`
