@@ -575,7 +575,7 @@ export const Keypad = () => {
           <span className="mt-1">F12</span>
         </Key>
         <Key containerClassName="rounded-tr-xl" className="rounded-tr-lg">
-          <div className="h-4 w-4 rounded-full bg-gradient-to-b from-neutral-300 via-neutral-200 to-neutral-300 p-px">
+          <div className="h-4 w-4 rounded-full bg-linear-to-b from-neutral-300 via-neutral-200 to-neutral-300 p-px">
             <div className="h-full w-full rounded-full bg-neutral-100" />
           </div>
         </Key>
