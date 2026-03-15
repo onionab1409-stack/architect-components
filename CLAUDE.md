@@ -1,12 +1,14 @@
 # ARCHITECT-COMPONENTS — AI Website Generator
 
 ## What
-Premium website generator using 222 UI components + 3 hooks from Aceternity UI, Magic UI, Motion Primitives, shadcn/ui.
+Premium website generator using 226 UI components + 6 layout components + 3 hooks from Aceternity UI, Magic UI, Motion Primitives, shadcn/ui.
 Stack: Next.js 16.1.6, React 19.2.3, TypeScript, Tailwind CSS v4.2.1, Motion 12.35.2, Three.js 0.183, GSAP 3.14, Lenis 1.3.
 
 ## Component Catalog
-- UI components (222): `src/components/ui/`
+- UI components (226): `src/components/ui/`
+- Layout components (6): `src/components/layout/`
 - Hooks (3): `src/hooks/`
+- GSAP setup: `src/lib/gsap.ts`
 - Full index: see COMPONENT-CATALOG.md
 - Registries: @aceternity, @magicui, @motion (configured in components.json)
 

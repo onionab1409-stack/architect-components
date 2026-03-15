@@ -1,5 +1,5 @@
-# COMPONENT CATALOG — 222 UI + 3 Hooks = 225 files
-## Verified: 10 March 2026 | All files exist in src/components/ui/
+# COMPONENT CATALOG — 226 UI + 6 Layout + 3 Hooks = 235 files
+## Verified: 15 March 2026 | All files exist in src/components/
 ## Sources: Aceternity UI, Magic UI, Motion Primitives, shadcn/ui (radix-nova)
 ## Note: 3 components listed in 2 categories (†): infinite-moving-cards, macbook-scroll, animated-modal
 
@@ -86,6 +86,30 @@ terminal, code-block, link-preview, carousel, ascii-art, canvas-text, pagination
 ```
 
 Install: `npx shadcn@latest add @aceternity/lamp` | `npx shadcn@latest add @motion/text-effect`
+
+---
+
+## GSAP EFFECTS (4)
+
+| Component | File | Purpose |
+|---|---|---|
+| fade-in | src/components/ui/fade-in.tsx | Motion whileInView wrapper with direction + reduced motion |
+| split-text-reveal | src/components/ui/split-text-reveal.tsx | GSAP SplitText character/word/line reveal |
+| pinned-section | src/components/ui/pinned-section.tsx | GSAP ScrollTrigger pin with configurable scroll length |
+| horizontal-scroll | src/components/ui/horizontal-scroll.tsx | GSAP horizontal scroll with pin + scrub |
+
+---
+
+## LAYOUT COMPONENTS (6)
+
+| Component | File | Purpose |
+|---|---|---|
+| smooth-scroll | src/components/layout/smooth-scroll.tsx | Lenis smooth scroll provider |
+| smooth-scroll-gsap | src/components/layout/smooth-scroll-gsap.tsx | Lenis + GSAP ticker sync |
+| page-transition | src/components/layout/page-transition.tsx | Entry-only page transition (Motion) |
+| page-transition-full | src/components/layout/page-transition-full.tsx | Full enter/exit transition with FrozenRouter |
+| preloader | src/components/layout/preloader.tsx | Loading screen with min duration + brand text |
+| skip-to-content | src/components/layout/skip-to-content.tsx | Accessible skip navigation link (Server Component) |
 
 ---
 
